@@ -7,7 +7,7 @@ public class InsiderTestCase extends BaseTest {
     PageManager pageManager;
 
     @Test(description = "Insider Interview",priority = 0)
-    public void interviewParallelDemo() {
+    public void interviewCase() {
         pageManager = new PageManager(driver);
         pageManager.getHomePage().checkInsiderLogo();
         pageManager.getHomePage().clickAcceptCookies();
